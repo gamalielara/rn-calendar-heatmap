@@ -1,0 +1,36 @@
+{
+  "name": "rn-calendar-heatmap",
+  "version": "1.0.0",
+  "description": "A Customizable Calendar Heatmap Library",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "keywords": [
+    "calendar",
+    "heatmap",
+    "react",
+    "native",
+    "heatmap",
+    "calendar"
+  ],
+  "author": "Ara Gamaliel Boanerges",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.52",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "date-fns": "^3.3.1"
+  }
+}
